@@ -20,4 +20,4 @@ Get devices list:
 
 %scriptname%.ps1 -GetDevices
 
-Returns list of registered devcies with names and API IDs. ID should be places in script configuration.
+Returns list of registered devcies with names and API IDs. ID should be placed in script configuration.
