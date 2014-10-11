@@ -1,2 +1,2 @@
 Set objShell = CreateObject("Wscript.Shell")
-Return = objShell.Run("powershell -ExecutionPolicy Unrestricted -WindowStyle hidden d:\work\pushbullet\powerpush.ps1 '" + WScript.Arguments.Item(0) + "' '" + WScript.Arguments.Item(1) + "'", 0)
+Return = objShell.Run("powershell -ExecutionPolicy Unrestricted -WindowStyle hidden powerpush_interactive.ps1 '" + WScript.Arguments.Item(0) + "' '" + WScript.Arguments.Item(1) + "'", 0)
